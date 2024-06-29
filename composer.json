@@ -1,0 +1,16 @@
+{
+    "name": "user1/hexlet-php",
+    "description": "example package",
+    "autoload": {
+        "psr-4": {
+            "User1\\HexletPhp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "RasmuS2024",
+            "email": "rasburkhanov@yandex.ru"
+        }
+    ],
+    "require": {}
+}
