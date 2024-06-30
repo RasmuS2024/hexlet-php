@@ -2,6 +2,9 @@
     "name": "user1/hexlet-php",
     "description": "example package",
     "autoload": {
+        "files": [
+            "src/Runner.php"
+        ],
         "psr-4": {
             "User1\\HexletPhp\\": "src/"
         }
@@ -12,5 +15,15 @@
             "email": "rasburkhanov@yandex.ru"
         }
     ],
-    "require": {}
+    "require": {
+        "illuminate/collections": "^10.48"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.5",
+        "squizlabs/php_codesniffer": "*"
+    },
+    "scripts": {
+        "phpcs": "phpcs"
+    }
+
 }
